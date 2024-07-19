@@ -1,0 +1,82 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fondo: #742adc;
+  --color: #fff;
+  --ancho: 400px;
+  --alto: 70px;
+  --border-radius: 10px;
+
+}
+
+body {
+  background-color: var(--fondo);
+  color: #fff;
+}
+
+header {
+  background-color: var(--color);
+  color: var(--fondo);
+  max-width: var(--ancho);
+  margin: 0 auto;
+  height: var(--alto);
+  border-radius: var(--borde);
+  margin-bottom: 25px;
+}
+
+form {
+  width: 450px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 12px;
+  color: var(--fondo);
+  margin-top: 40px;
+  padding: 12px;
+  border-radius: var(--border-radius);
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  font-size: 16px;
+  border: solid 1px var(--fondo);
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  background-color: var(--fondo);
+  color: var(--color);
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  font-size: 16px
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2 solid black;
+}
+
+input:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid black;
+}

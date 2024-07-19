@@ -1,0 +1,50 @@
+.container {
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  border: red 5px solid;
+  text-align: center;
+  margin-top: 80px;
+  position: relative;
+  z-index: 4;
+
+}
+
+.box {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: 20px;
+  color: blue;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.static {}
+
+.relative {
+  /*position: relative;
+  top: 40px;
+  right: 0;
+*/
+}
+
+.absoluto {
+  /*position: absolute;
+  top: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;*/
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 1400px;
+  z-index: 0;
+}
